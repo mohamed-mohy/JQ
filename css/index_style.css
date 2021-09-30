@@ -1,0 +1,92 @@
+body {
+  background-color: #212529;
+  color: white;
+  scroll-behavior: unset !important;
+}
+html
+{
+  scroll-behavior: unset !important;
+}
+h1 {
+  font-size: 4rem;
+}
+.singer p {
+  display: none;
+}
+.Menu ul {
+  position: fixed;
+  height: 100vh;
+  padding: 5% 5%;
+  background-color: #212529;
+  left: -275;
+}
+.Menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  transition: .5s;
+}
+.Menu a:hover {
+  color: #0dcaf0;
+}
+.Menu li {
+  padding-top: 30px;
+}
+.Menu .fa-bars {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.Menu .fa-times {
+  font-size: 1.5rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.Menu .fa-times:hover {
+  color: #0dcaf0;
+}
+#home {
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-size: cover;
+}
+.home-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.singer {
+  padding: 0 20%;
+}
+.singer h2 {
+  background-color: #020f1b !important;
+  cursor: pointer;
+}
+
+#duration {
+  background-image: url(../images/invitation-2508607__340.jpg);
+  background-size: cover;
+}
+.bg-duration {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10% 5%;
+}
+.bg-duration h3 {
+  font-size: 3rem;
+  border: 1px solid white;
+  padding: 10% 20%;
+}
+.con-social {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.con-social i {
+  padding: 15px;
+  border: #0dcaf0 2px solid;
+  transition: 0.5s !important;
+  text-align: center;
+}
+.con-social i:hover {
+  background-color: #0dcaf0;
+  color: #212529;
+}
